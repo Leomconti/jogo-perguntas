@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  template:
+    image: postgres
+    container_name: template-without-projects
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: template
+    ports:
+      - '5432:5432'
+    restart: unless-stopped
