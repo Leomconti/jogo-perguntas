@@ -5,7 +5,7 @@ export function Logo() {
   return (
     <figure className="relative">
       <Link href="/app">
-        <Image src="/logo.png" alt="logo" width={60} height={20} />
+        <Image src="/logo.jpg" alt="logo" width={60} height={20} />
       </Link>
     </figure>
   )

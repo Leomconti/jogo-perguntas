@@ -1,52 +1,45 @@
 'use client'
 
-import {
-  Clock,
-  CheckSquare,
-  BarChart,
-  Users,
-  Zap,
-  ChevronRight
-} from 'lucide-react'
+import { BookOpen, Trophy, BarChart, Users, Zap, Medal } from 'lucide-react'
 
 export const benefits = [
   {
     id: '0',
-    title: 'Eficiência de Tempo',
-    text: 'Reduz drasticamente o tempo necessário para criar um backlog de produto, permitindo que os Gerentes de Produto se concentrem em decisões estratégicas em vez de documentação.',
-    iconUrl: () => <Clock />
+    title: 'Níveis Progressivos',
+    text: 'Quizzes organizados em diferentes níveis de dificuldade, permitindo uma evolução gradual no aprendizado de lógica de programação.',
+    iconUrl: () => <BookOpen />
   },
   {
     id: '1',
-    title: 'Consistência',
-    text: 'Garante uma abordagem padronizada para criação de backlog em todos os projetos e equipes, reduzindo erros humanos e oversights na coleta de requisitos.',
-    iconUrl: () => <CheckSquare />,
+    title: 'Sistema de Recompensas',
+    text: 'Ganhe badges e pontos por completar desafios, mantendo a motivação alta durante todo o processo de aprendizagem.',
+    iconUrl: () => <Trophy />,
     light: true
   },
   {
     id: '2',
-    title: 'Priorização Inteligente',
-    text: 'Usa IA para sugerir priorização baseada em valor de negócio e impacto do usuário, ajudando as equipes a focar nas características mais críticas primeiro.',
-    iconUrl: () => <BarChart />
+    title: 'Feedback Instantâneo',
+    text: 'Receba feedback imediato após cada resposta, entendendo seus erros e acertos para um aprendizado mais efetivo.',
+    iconUrl: () => <Zap />
   },
   {
     id: '3',
-    title: 'Aprendizado Contínuo',
-    text: 'Evolui com seu uso, adaptando-se ao seu estilo de trabalho e necessidades específicas, refinando sua compreensão do seu negócio ao longo do tempo.',
-    iconUrl: () => <Zap />,
+    title: 'Acompanhamento de Progresso',
+    text: 'Visualize seu progresso através de estatísticas detalhadas e gráficos de desempenho em cada tema.',
+    iconUrl: () => <BarChart />,
     light: true
   },
   {
     id: '4',
-    title: 'Melhoria na Colaboração',
-    text: 'Facilita a comunicação entre equipes e stakeholders, promovendo um ambiente de trabalho mais coeso e produtivo.',
+    title: 'Multiplataforma',
+    text: 'Acesse a plataforma de qualquer dispositivo, com interface responsiva e adaptada para melhor experiência.',
     iconUrl: () => <Users />
   },
   {
     id: '5',
-    title: 'Integrações',
-    text: 'Integre com as melhores ferramentas de gerenciamento de projetos, como Jira, Trello, Linear, ClickUp, entre outras, simplificando todo o fluxo de trabalho de desenvolvimento de produto.',
-    iconUrl: () => <Users />
+    title: 'Ranking e Competição',
+    text: 'Compare seu desempenho com outros estudantes através de rankings semanais e conquistas especiais.',
+    iconUrl: () => <Medal />
   }
 ]
 

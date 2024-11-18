@@ -47,14 +47,14 @@ export function SlideTabs() {
     >
       <Link href="/" className="mr-4 flex h-fit shrink-0 items-start">
         <Image
-          src="/logo-light.svg"
+          src="/logo.jpg"
           alt="logo"
           width={100}
           height={40}
           className="dark:hidden"
         />
         <Image
-          src="/logo-dark.svg"
+          src="/logo.jpg"
           alt="logo"
           width={100}
           height={40}

@@ -17,42 +17,76 @@ import { useState } from 'react'
 const plans = {
   monthly: [
     {
-      title: 'Free Plan',
-      description: 'For testing and evaluation or small-scale deployments.',
-      price: '$0',
-      advantages: ['30K events/month included', 'startups']
+      title: 'Plano Gratuito',
+      description: 'Para começar sua jornada na programação.',
+      price: 'R$ 0',
+      advantages: [
+        'Acesso a quizzes básicos',
+        'Feedback instantâneo',
+        'Ranking semanal',
+        'Interface responsiva'
+      ]
     },
     {
-      title: 'Pro Plan',
-      description: 'Good place for bigger projects, startups, and businesses.',
-      price: '$12.84',
-      advantages: ['250K events/month included', '$0.0012 per additional event']
+      title: 'Plano Estudante',
+      description: 'Para quem quer acelerar o aprendizado.',
+      price: 'R$ 29,90',
+      advantages: [
+        'Todos os quizzes básicos',
+        'Quizzes avançados',
+        'Simulados completos',
+        'Estatísticas detalhadas',
+        'Suporte prioritário'
+      ]
     },
     {
-      title: 'Emprise Plan',
-      description: 'Good place for bigger projects, startups, and businesses.',
-      price: '$20.84',
-      advantages: ['250K events/month included', '$0.0012 per additional event']
+      title: 'Plano Professor',
+      description: 'Para educadores e instituições.',
+      price: 'R$ 89,90',
+      advantages: [
+        'Todos os recursos do plano Estudante',
+        'Criação de turmas',
+        'Dashboard de acompanhamento',
+        'Relatórios de desempenho',
+        'Personalização de conteúdo'
+      ]
     }
   ],
   yearly: [
     {
-      title: 'Free Plan',
-      description: 'For testing and evaluation or small-scale deployments.',
-      price: '$190',
-      advantages: ['30K events/month included', 'startups']
+      title: 'Plano Gratuito',
+      description: 'Para começar sua jornada na programação.',
+      price: 'R$ 0',
+      advantages: [
+        'Acesso a quizzes básicos',
+        'Feedback instantâneo',
+        'Ranking semanal',
+        'Interface responsiva'
+      ]
     },
     {
-      title: 'Pro Plan',
-      description: 'Good place for bigger projects, startups, and businesses.',
-      price: '$550',
-      advantages: ['250K events/month included', '$0.0012 per additional event']
+      title: 'Plano Estudante',
+      description: 'Para quem quer acelerar o aprendizado.',
+      price: 'R$ 299,90',
+      advantages: [
+        'Todos os quizzes básicos',
+        'Quizzes avançados',
+        'Simulados completos',
+        'Estatísticas detalhadas',
+        'Suporte prioritário'
+      ]
     },
     {
-      title: 'Emprise Plan',
-      description: 'Good place for bigger projects, startups, and businesses.',
-      price: '$3900',
-      advantages: ['250K events/month included', '$0.0012 per additional event']
+      title: 'Plano Professor',
+      description: 'Para educadores e instituições.',
+      price: 'R$ 899,90',
+      advantages: [
+        'Todos os recursos do plano Estudante',
+        'Criação de turmas',
+        'Dashboard de acompanhamento',
+        'Relatórios de desempenho',
+        'Personalização de conteúdo'
+      ]
     }
   ]
 }

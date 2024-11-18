@@ -5,7 +5,7 @@ import { type ImageProps } from 'next/image'
 import { UseCasesMobile } from './UseCasesMobile'
 import { UseCasesDesktop } from './UseCasesDesktop'
 import { cn } from '@/lib/utils'
-import { FileText, Users, Zap, Target } from 'lucide-react'
+import { BookOpen, Target, Trophy } from 'lucide-react'
 
 interface UseCase {
   name: React.ReactNode
@@ -17,31 +17,28 @@ interface UseCase {
 
 export const useCasesItem: Array<UseCase> = [
   {
-    name: 'Transformação de Transcrições',
-    summary:
-      'Converta transcrições de reuniões em backlogs estruturados rapidamente.',
+    name: 'Iniciantes em Programação',
+    summary: 'Comece sua jornada na programação de forma interativa',
     description:
-      'Transforme transcrições brutas de reuniões de produto em backlogs estruturados e priorizados em minutos. Ideal para equipes que realizam frequentes sessões de brainstorming e precisam de uma maneira eficiente de organizar as ideias discutidas.',
-    image: '/story_3.jpeg',
-    icon: () => <FileText />
+      'Ideal para quem está começando a aprender programação. Os quizzes introdutórios cobrem conceitos básicos de lógica e algoritmos, com explicações detalhadas e feedback instantâneo.',
+    image: '/quiz-beginner.png',
+    icon: () => <BookOpen />
   },
   {
-    name: 'Adaptação Rápida a Mudanças de Mercado',
-    summary:
-      'Atualize rapidamente o backlog com base em novas informações de mercado.',
+    name: 'Prática Contínua',
+    summary: 'Fortaleça seus conhecimentos com desafios diários',
     description:
-      'Quando surgem novas tendências de mercado ou feedback de clientes, use o Backlog Boost para rapidamente incorporar essas mudanças no seu backlog existente. Isso permite que as equipes sejam mais ágeis e responsivas às necessidades do mercado.',
-    image: '/story_3.jpeg',
-    icon: () => <Zap />
-  },
-  {
-    name: 'Alinhamento de Múltiplos Projetos',
-    summary:
-      'Mantenha consistência e priorização entre backlogs de diferentes projetos.',
-    description:
-      'Para organizações gerenciando múltiplos produtos ou projetos, o Backlog Boost ajuda a manter consistência na estrutura e priorização dos backlogs. Isso facilita o alinhamento estratégico e a alocação de recursos entre diferentes iniciativas.',
-    image: '/story_3.jpeg',
+      'Para estudantes que já conhecem o básico e querem praticar regularmente. Desafios diários e quizzes temáticos mantêm o aprendizado constante e progressivo.',
+    image: '/quiz-practice.png',
     icon: () => <Target />
+  },
+  {
+    name: 'Preparação para Avaliações',
+    summary: 'Prepare-se para provas e testes de programação',
+    description:
+      'Perfeito para estudantes que precisam se preparar para avaliações. Simulados completos e quizzes específicos por tema ajudam na revisão e fixação do conteúdo.',
+    image: '/quiz-exam.png',
+    icon: () => <Trophy />
   }
 ]
 

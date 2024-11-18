@@ -17,14 +17,14 @@ export function Header() {
       <div className="flex items-center gap-[10px] p-2 md:pb-2">
         <Link href="/app">
           <Image
-            src="/logo-light.svg"
+            src="/logo.jpg"
             alt="logo"
             width={80}
             height={40}
             className="dark:hidden"
           />
           <Image
-            src="/logo-dark.svg"
+            src="/logo.jpg"
             alt="logo"
             width={80}
             height={40}

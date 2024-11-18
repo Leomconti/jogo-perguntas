@@ -9,14 +9,14 @@ export function Footer() {
         <div className="flex flex-wrap justify-between gap-6 md:items-center">
           <figure>
             <Image
-              src="/logo-light.svg"
+              src="/logo.jpg"
               alt="logo"
               width={100}
               height={40}
               className="dark:hidden"
             />
             <Image
-              src="/logo-dark.svg"
+              src="/logo.jpg"
               alt="logo"
               width={100}
               height={40}
